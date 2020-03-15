@@ -1,11 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="./Assets/css/style.css">
+
+  <title>Contact</title>
 </head>
-<body>
-    
+
+<body class="body">
+
+  <!-- Start Nav -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+    <span class="navbar-brand mb-1 h1">Svetlana Demkovich</span>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="nav navbar-nav navbar-right ml-auto">
+        <li class="nav-item">
+          <a class="nav-link active" href="contact.html">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="portfolio.html">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">About</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- End Nav -->
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="page-header">Contact</div>
+        <form>
+          <div class="form-group">
+            <label for="InputName1">Name</label>
+            <input type="name" class="form-control" id="InputName1" placeholder="Name">
+          </div>
+          <div class="form-group">
+            <label for="InputEmail1">Email address</label>
+            <input type="email" class="form-control" id="InputEmail1" placeholder="Email">
+          </div>
+          <div class="form-group">
+            <label for="InputMessage1">Message</label>
+            <input type="message" class="form-control" id="InputMessage1" placeholder="Message">
+          </div>
+          <button type="submit" class="btn-primary">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <p>&copy; Copyright</p>
+  </div>
+
 </body>
 </html>
