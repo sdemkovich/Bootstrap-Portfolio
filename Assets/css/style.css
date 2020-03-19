@@ -4,18 +4,20 @@
 body {
   background-image: url("../Images/ripples.png");
 }
-.navbar-brand {
+.navbar {
+  padding: 0px 0px 0px 0px;
+}
+.navbar-light .navbar-brand {
+  color: #ffffff;
   background-color: #4aaaa5;
   padding: 10px;
   font-weight: bolder;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .container {
-  background-color: #ffffff;
   margin-top: 100px;
-  margin-left: 30px;
+  margin-bottom: 30px;
   padding: 40px;
-  width: 65%;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -27,9 +29,15 @@ body {
   border-bottom-style: solid;
   border-width: 1px;
   border-color: #cccccc; 
-  margin-bottom: 15px; 
+  margin-bottom: 15px;
 }
 
+.About-section {
+  background-color: #ffffff;
+}
+.form-group{
+ 
+}
 .img-thumbnail {
   margin-right: 15px;
 }
@@ -56,11 +64,9 @@ body {
   
 }
 .footer {
-  position: fixed ;
   left: 0;
   bottom: 0;
   width: 100%;
-  clear: both;
   background-color: #666666;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1em;;
